@@ -1,0 +1,76 @@
+title: "NVIDIA — The Complete Guide"
+description: "From Silicon to Supercomputers: Understanding NVIDIA GPUs, CUDA, Data Centers, and the Accelerated Computing Ecosystem. A comprehensive learning path for engineers and researchers."
+baseurl: "/nvidia"
+url: "https://karam-nus.github.io"
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: false
+
+include:
+  - README.md
+
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "01 — GPU Fundamentals"
+    url: "/01_gpu_fundamentals"
+  - title: "02 — GPU Microarchitecture"
+    url: "/02_gpu_microarchitecture"
+  - title: "03 — CUDA Programming"
+    url: "/03_cuda_programming"
+  - title: "04 — NVIDIA Libraries"
+    url: "/04_nvidia_libraries"
+  - title: "05 — Optimization Stack"
+    url: "/05_optimization_stack"
+  - title: "06 — NVIDIA Models"
+    url: "/06_nvidia_models"
+  - title: "07 — Parallelism on GPUs"
+    url: "/07_parallelism"
+  - title: "08 — GPU Generations"
+    url: "/08_gpu_generations"
+  - title: "09 — NVIDIA CPUs"
+    url: "/09_nvidia_cpus"
+  - title: "10 — Multi-GPU Interconnects"
+    url: "/10_multi_gpu_interconnects"
+  - title: "11 — Data Center Architectures"
+    url: "/11_data_center_architectures"
+  - title: "12 — GPU Economics & Tokenomics"
+    url: "/12_gpu_economics"
+  - title: "13 — ASICs & GPU Competitors"
+    url: "/13_asics_and_competitors"
+  - title: "14 — Quantization for NVIDIA GPUs"
+    url: "/14_quantization_nvidia"
+  - title: "15 — Software Ecosystem"
+    url: "/15_software_ecosystem"
+  - title: "16 — Networking & Interconnects"
+    url: "/16_networking"
+  - title: "17 — Power, Cooling & Sustainability"
+    url: "/17_power_cooling"
+  - title: "Appendix A — Company History"
+    url: "/appendix_a_company_history"
+  - title: "Appendix B — Future Roadmap"
+    url: "/appendix_b_future_roadmap"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
